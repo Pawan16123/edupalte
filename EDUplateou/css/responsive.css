@@ -1,0 +1,223 @@
+@media screen and (max-width: 1366px){
+    .hero h1{
+        font-size: 36px;
+    }
+    .hero p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 1199px){
+    /* Header */
+    nav ul li {
+        padding:0 9px;
+    }
+    nav ul li a{
+        font-size: 12px;
+    }
+    nav .socials a{
+        width: 25px; 
+        height: 32px;
+        font-size: 13px;
+    }
+
+    /* hero */
+    .hero .slide-left{
+        text-align: center;
+    }
+    .hero .slide-left h1,
+    .hero .slide-left p{
+        width: 80%;
+        margin: 0 auto;
+        margin-left: auto;
+        margin-bottom: auto;
+    }
+
+    /* Professor */
+    .professor .text{
+        text-align: center;
+    }
+    .professor .text .separator{
+        margin: 31px auto;
+        padding: 1px;
+    }
+    /* .professor a.button{
+        display: block;
+        margin: 0 auto;
+    }
+     */
+
+       /* Grades */
+    .grades .text{
+        text-align: center;
+    }
+    .grades .text .separator{
+        margin: 31px auto;
+        padding: 1px;
+    }
+
+    /* Subscribe */
+    .subscribe .text{
+        text-align: center;
+    }
+    .subscribe .text h2,
+    .subscribe .text p{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .subscribe .text .separator{
+        margin: 31px auto;
+        /* padding: 0px; */
+    }
+    .subscribe a.button,
+    .subscribe input{
+        display: block;
+        margin: 20px auto;
+        width: 220px;
+
+    }
+    /* Facilities */
+    .fac-img,
+    .fac-description{
+        height: 50%;
+    }
+    .fac-description{
+        padding: 5% 10%;
+    }
+    .fac-description p{
+        max-height: 30vh;
+    }
+}
+
+@media screen and (max-width: 991px){
+   /* Hero */
+    .hero h1{
+        font-size: 30px;
+    }
+    .nav{
+        height: 0;
+    }
+    /* Branches */
+    /* .branches{
+        background-color: black;
+    } */
+    .panel{
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .branches{
+        padding-top: 40px;
+    }
+    /* contactus */
+    .contact{
+        text-align: center;
+    }
+    .contact .separator{
+        display: block;
+        margin: 30px auto;
+
+    }
+    .contac-form form{
+        width: 85%;
+        margin: 0 auto;
+    }
+    .contact-form .form input,
+    .contact-form .form textarea{
+        width: 65%;
+    }
+    .contact-form .form textarea{
+        height: 105px;
+    }
+
+}
+
+@media screen and (max-width: 767px){
+    /* features */
+    .feature{
+        margin-bottom: 50px;
+    }
+    .feature:last-child {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    /* facilities */
+    .item{
+        padding: 3px 15px;
+    }
+    .item .item-image{
+        height: 220px;
+        width: 85%;
+        margin: 0 auto;
+    }
+    /* Awards */
+    .slick-prev{
+        left: -5px;
+        margin-left: 5px;
+    }
+    .slick-next{
+        right: -5px;
+        margin-right: 5px;
+    }
+        /* Branches */
+    .branches .map{
+        height: 400px;
+    }
+      /* ----- Footer ----- */
+  .footer-columns {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+  .column {
+    border-bottom: 1px solid #cecece;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+  }
+  .column:last-child {
+    border: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  footer p.socials {
+    font-size: 14px;
+  }
+  
+
+  @media screen and (max-height: 870px) {
+    footer .fixed-content {
+      position: relative;
+    }
+  }
+}
+@media screen and (max-width: 575px){
+    /* Hero */
+    .cta .button-primary {
+        margin-bottom: 10px;
+    }
+    .hero .carousel-indicators{
+        margin: 30px auto !important;
+    }
+    /* features */
+
+    .feature p{
+        width: 80%;
+        margin: 0 auto;
+    }
+    /* minisubscribe */
+    .subscribe-mini .email input{
+        /* display: block; */
+        margin: 20px auto;
+        width: 225px;   
+    }
+    .subscribe-mini .email .button{
+        margin: 0;
+    }
+
+    
+}
+@media screen and (max-width: 340px){
+    
+}
+/* @media screen and (max-height: 20vph){
+    .fac-description : 800px;
+} */
